@@ -1,0 +1,6 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+language = input("Enter your favorite programming language: ")
+print(name)
+print(age)
+print(language)
