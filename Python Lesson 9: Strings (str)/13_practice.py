@@ -1,0 +1,14 @@
+# Find first non-repeating character
+
+s = input("Enter a string: ")
+freq = {}
+
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1
+
+for ch in s:
+    if freq[ch] == 1:
+        print("First non-repeating:", ch)
+        break
+else:
+    print("No non-repeating character")
