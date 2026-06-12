@@ -6,7 +6,7 @@ print(x)     # 15
 x -= 3        # same as x = x - 3 → 15 - 3 = 12
 print(x)     # 12
 
-x *= 2        # same as x = x * 2 → 12 * 2 = 24
-print(x)     # 24
+x *= 2        # same as x = x * 2 → 10 * 2 = 20
+print(x)     #  20
 
 
